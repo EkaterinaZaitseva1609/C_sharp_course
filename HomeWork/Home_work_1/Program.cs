@@ -10,11 +10,11 @@ int b = int.Parse(Console.ReadLine());
 
 if (a > b)
 {
-    System.Console.WriteLine("max = " + a);
+    System.Console.WriteLine(a + " > " + b);
 }
 else if (a < b)
 {
-    System.Console.WriteLine("max = " + b);
+    System.Console.WriteLine(b + " > " + a);
 }
 else //if (a = b)
 {
@@ -26,7 +26,7 @@ else //if (a = b)
 вход три числа и выдаёт максимальное из этих чисел.
 */
 
-System.Console.WriteLine("Введите первое число");
+/*System.Console.WriteLine("Введите первое число");
 int a = int.Parse(Console.ReadLine());
 System.Console.WriteLine("Введите второе число");
 int b = int.Parse(Console.ReadLine());
@@ -51,7 +51,7 @@ for (int i = 1; i < number.Length; i++)
 принимает число и выдаёт, является ли число чётным
 (делится ли оно на два без остатка).*/
 
-System.Console.WriteLine("Введите число");
+/*System.Console.WriteLine("Введите число");
 int Num = int.Parse(Console.ReadLine());
 
 if (Num % 2 == 0)
@@ -83,7 +83,7 @@ System.Console.WriteLine("нет");
 принимает число (N), а на выходе показывает все чётные
 числа от 1 до N.*/
 
-System.Console.WriteLine("Введите число");
+/*System.Console.WriteLine("Введите число");
 int Num = int.Parse(Console.ReadLine());
 System.Console.WriteLine("результат");
    
@@ -91,3 +91,4 @@ for (int sum = 2; sum < Num; sum += 2)
 {
   System.Console.WriteLine(sum); 
 }
+*/
