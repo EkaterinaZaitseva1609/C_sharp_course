@@ -6,7 +6,7 @@
 
 
 
-public class Seminar2Ex4
+public class Seminar3Ex1
 {
     public static void Main()
     {
