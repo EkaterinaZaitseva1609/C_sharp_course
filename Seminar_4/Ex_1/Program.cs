@@ -5,15 +5,12 @@
 
 int func(int size)
 {
-    System.Console.WriteLine("start");
     int sum = 0;
     for (int i = 0; i <= size; i++)
     {
-        System.Console.WriteLine("i =  " +  i);
         sum += i;
         System.Console.WriteLine("sum = " + sum);
     }
-    System.Console.WriteLine("end");
     return sum;
 }
 
