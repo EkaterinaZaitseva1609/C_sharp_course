@@ -145,3 +145,56 @@ System.Console.WriteLine("]");
 -3; массив [6, 7, 19, 345, 3] -> да
 */
 
+/*
+bool checkNum (int[] arr, int num) 
+{
+   System.Console.Write(" arr [");
+for (int i = 0; i < arr.Length; i++)
+{
+ System.Console.Write(arr[i] + ", ");
+}
+System.Console.Write("]");
+
+bool check = false;
+for (int i = 0; i < arr.Length; i++)
+{
+    if (num == arr[i])
+    {
+    check = true;
+    }
+}
+return check;
+}
+
+
+Console.WriteLine("Введите  число");
+int num = int.Parse(Console.ReadLine());
+int[] mass = {33, 44, 5, 7, 8, 9};
+bool res = checkNum (mass, num);
+System.Console.WriteLine(res);
+
+*/
+
+/*
+Console.WriteLine("Введите  число");
+int num = int.Parse(Console.ReadLine());
+
+int[] array = { 1, 3, 4, 16, 8, 88 };
+System.Console.Write(" array [");
+for (int i = 0; i < array.Length; i++)
+{
+ System.Console.Write(array[i] + ", ");
+}
+System.Console.Write("]");
+
+bool check = false;
+for (int i = 0; i < array.Length; i++)
+{
+    if (num == array[i])
+    {
+    check = true;
+    }
+    
+}
+System.Console.WriteLine(" -> " + check);
+*/
