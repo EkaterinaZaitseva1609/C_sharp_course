@@ -198,3 +198,67 @@ for (int i = 0; i < array.Length; i++)
 }
 System.Console.WriteLine(" -> " + check);
 */
+
+/*
+Задача 35: Задайте одномерный массив из 123 случайных чисел.
+Найдите количество элементов массива, значения которых лежат в
+отрезке [10,99].
+Пример для массива из 5, а не 123 элементов. В своём решении сделайте для
+123
+[5, 18, 123, 6, 2] -> 1
+[1, 2, 3, 6, 2] -> 0
+[10, 11, 12, 13, 14] -> 5
+*/
+/*
+void getRes()
+{
+int[] massiv = new int[123];
+System.Console.Write("[");
+for (int i = 0; i < massiv.Length; i++)
+{
+    massiv[i] = new Random().Next(0, 200);
+}
+for (int i = 0; i < massiv.Length; i++)
+{
+    System.Console.Write(massiv[i] + " ");
+}
+System.Console.Write("] -> ");
+int res = 0;
+int numA = 9;
+int numB = 100;
+for (int i = 0; i < massiv.Length; i++)
+{
+    if (massiv[i] > numA && massiv[i] < numB)
+    {
+        res += 1;
+    }
+}
+System.Console.Write(res + " ");
+System.Console.WriteLine();
+}
+
+getRes();
+*/
+
+/*
+int[] massiv = new int[123];
+System.Console.Write("[");
+for (int i = 0; i < massiv.Length; i++)
+{
+    massiv[i] = new Random().Next(0, 200);
+}
+for (int i = 0; i < massiv.Length; i++)
+{
+    System.Console.Write(massiv[i] + " ");
+}
+System.Console.Write("] -> ");
+int res = 0;
+for (int i = 0; i < massiv.Length; i++)
+{
+    if (massiv[i] > 9 && massiv[i] < 100)
+    {
+        res += 1;
+    }
+}
+System.Console.Write(res + " ");
+*/
