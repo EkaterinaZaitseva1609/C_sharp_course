@@ -262,3 +262,44 @@ for (int i = 0; i < massiv.Length; i++)
 }
 System.Console.Write(res + " ");
 */
+
+/*
+Задача 37: Найдите произведение пар чисел в одномерном массиве.
+Парой считаем первый и последний элемент, второй и предпоследний
+и т.д. Результат запишите в новом массиве.
+[1 2 3 4 5] -> 5 8 3
+[6 7 3 6] -> 36 21
+*/
+
+
+void PrintArr (int[] arr)
+{
+
+for (int i = 0; i < arr.Length; i++)
+{
+    System.Console.Write(arr[i] + " ");
+}
+System.Console.WriteLine();
+}
+
+int[] arr = new int[5];
+int[] array = new int[(arr.Length + 1) / 2];
+
+for (int i = 0; i < arr.Length; i++)
+{
+    arr[i] = new Random().Next(0, 10);
+}
+
+PrintArr(arr);
+
+array[array.Length - 1] = arr[arr.Length / 2];
+
+for (int i = 0; i < arr.Length / 2; i++)
+{
+    array[i] = arr[i] * arr[arr.Length - 1 -i];
+}
+
+PrintArr(array);
+
+
+
