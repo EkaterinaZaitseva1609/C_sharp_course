@@ -8,7 +8,7 @@ m = 3, n = 4.
 2 3 4 5
 */ 
 
-int m = 3, n = 4;
+int m = 5, n = 7;
 int[,] array = new int [n, m];
 
 for (int i = 0; i < array.GetLength(0); i++)
