@@ -1,4 +1,4 @@
-﻿/*void staircase(int n)
+﻿void staircase(int n)
 {
 
     for (int i = 0; i < n; i++)
@@ -20,8 +20,8 @@
 
 }
 staircase(4);
-*/
-/*
+
+
 void staircase(int n)
 {
 
@@ -44,8 +44,8 @@ void staircase(int n)
 
 }
 staircase(4);
-*/
 
+/*
 void miniMaxSum(List<int> arr)
 {
     long summ = 0;
@@ -76,4 +76,4 @@ System.Console.WriteLine(min + " " + max);
 }
 List<int> mass = new List<int>() { 1, 2, 3, 4, 5 };
 miniMaxSum(mass);
-
+*/
